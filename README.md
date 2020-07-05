@@ -2,15 +2,4 @@
 
 Dhiraj Jain - Business Card
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img height="400" alt="Screen Shot 2020-07-05 at 1 19 54 AM" src="https://user-images.githubusercontent.com/54300222/86526779-b9ffb380-be5d-11ea-99f1-34c01782c536.png">
