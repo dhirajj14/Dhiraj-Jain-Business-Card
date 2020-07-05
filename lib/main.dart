@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.black,
         body: SafeArea(
           child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               CircleAvatar(
                 radius: 50.0,
@@ -36,46 +37,39 @@ class MyApp extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                     letterSpacing: 2.5),
               ),
-              Container(
-                color: Colors.white,
-                margin: EdgeInsets.symmetric(horizontal: 25.0, vertical: 10.0),
-                padding: EdgeInsets.all(10.0),
-                child: Row(
-                  children: <Widget>[
-                    Icon(
-                      Icons.phone,
-                      color: Colors.black.withOpacity(0.8),
-                    ),
-                    SizedBox(
-                      width: 10.0,
-                    ),
-                    Text(
-                      "+1 312 536 9875",
-                      style: TextStyle(
-                          fontFamily: 'SourceSan', color: Colors.black),
-                    ),
-                  ],
+              SizedBox(
+                height: 20.0,
+                width: 150.0,
+                child: Divider(
+                  color: Colors.white.withOpacity(0.5),
                 ),
               ),
-              Container(
-                color: Colors.white,
+              Card(
                 margin: EdgeInsets.symmetric(horizontal: 25.0, vertical: 10.0),
-                padding: EdgeInsets.all(10.0),
-                child: Row(
-                  children: <Widget>[
-                    Icon(
-                      Icons.email,
-                      color: Colors.black.withOpacity(0.8),
-                    ),
-                    SizedBox(
-                      width: 10.0,
-                    ),
-                    Text(
-                      "dhirajj75@gmail.com",
-                      style: TextStyle(
-                          fontFamily: 'SourceSan', color: Colors.black),
-                    ),
-                  ],
+                child: ListTile(
+                  leading: Icon(
+                    Icons.phone,
+                    color: Colors.black.withOpacity(0.8),
+                  ),
+                  title: Text(
+                    "+1 312 536 9875",
+                    style:
+                        TextStyle(fontFamily: 'SourceSan', color: Colors.black),
+                  ),
+                ),
+              ),
+              Card(
+                margin: EdgeInsets.symmetric(horizontal: 25.0, vertical: 10.0),
+                child: ListTile(
+                  leading: Icon(
+                    Icons.email,
+                    color: Colors.black.withOpacity(0.8),
+                  ),
+                  title: Text(
+                    "dhirajj75@gmail.com",
+                    style:
+                        TextStyle(fontFamily: 'SourceSan', color: Colors.black),
+                  ),
                 ),
               ),
             ],
